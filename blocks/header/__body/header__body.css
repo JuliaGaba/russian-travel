@@ -1,0 +1,15 @@
+.header__body {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 28px 0 0;
+  flex-direction: row;
+  height: 52px;
+}
+
+@media screen and (max-width: 321px) {
+  .header__body {
+  padding-top: 16px;
+   max-width: 90%;
+   margin: 0 auto;
+}

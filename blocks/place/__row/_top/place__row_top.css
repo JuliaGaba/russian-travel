@@ -1,0 +1,22 @@
+.place__row_top {
+  margin-bottom: 48px;
+  align-items: end;
+}
+
+@media screen and (min-width: 321px) and (max-width: 478px) {
+  .place__row_top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .place__row_top {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  }
+}

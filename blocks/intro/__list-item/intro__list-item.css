@@ -1,0 +1,19 @@
+.intro__list-item {
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 60%;
+  text-align: start;
+  font-family: Inter;
+}
+
+.intro__list-item:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list-item {
+    width: 100%;
+    margin: 0;
+  }
+}
