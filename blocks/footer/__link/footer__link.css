@@ -5,9 +5,14 @@
   line-height: 18px;
   font-size: 16px;
   font-weight: 400;
+  transition: .2s ease-in-out;
 }
 
-.footer__link:last-child {
+.footer__link:hover {
+  opacity: .7;
+}
+
+.footer__link:nth-last-of-type() {
   margin-right: 0;
 }
 
@@ -19,7 +24,7 @@
     margin-bottom: 32px;
   }
 
-  .footer__link:last-child {
+  .footer__link:nth-last-of-type() {
     margin-bottom: 48px;
   }
 }
@@ -32,7 +37,7 @@
     margin-bottom: 32px;
   }
 
-  .footer__link:last-child {
+  .footer__link:nth-last-of-type() {
     margin-bottom: 48px;
   }
 }
