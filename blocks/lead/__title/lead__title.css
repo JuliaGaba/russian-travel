@@ -1,11 +1,11 @@
-  .lead__title {
-    line-height: 103%;
-    font-size: 96px;
-    font-weight: 900;
-    margin: 56px auto 32px auto;
-    text-align: center;
-    font-family: Inter;
-    width: min-content;
+.lead__title {
+ line-height: 103%;
+ font-size: 96px;
+ font-weight: 900;
+ margin: 56px auto 32px auto;
+ text-align: center;
+ font-family: Inter;
+ width: min-content;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -36,5 +36,5 @@
     font-size: 40px;
     line-height: 110%;
     margin-bottom: 16px;
-}
+ }
 }

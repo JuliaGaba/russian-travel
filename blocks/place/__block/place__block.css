@@ -10,17 +10,17 @@
 
 @media screen and (min-width: 321px) and (max-width: 478px) {
   .place__block {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 62px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 62px;
 
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__block {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 62px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 62px;
   }
 }

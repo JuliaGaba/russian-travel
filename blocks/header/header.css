@@ -11,9 +11,10 @@
 
 @media screen and (max-width: 320px) {
   .header {
-  padding-top: 16px;
+   padding: 16px 0 0 0;
    max-width: 90%;
    margin: 0 auto;
+ }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
@@ -21,10 +22,3 @@
     padding: 0 24px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .header {
-    padding: 0;
-  }
-}
-
