@@ -20,12 +20,12 @@
 }
 
 
-  @media screen and (max-width: 320px) {
-    .place__paragraph-item {
-      margin-bottom: 25px;
-    }
-
-    .place__paragraph-item:last-of-type {
-      margin-bottom: 0;
-    }
+@media screen and (max-width: 320px) {
+  .place__paragraph-item {
+    margin-bottom: 25px;
   }
+
+  .place__paragraph-item:last-of-type {
+    margin-bottom: 0;
+  }
+}
