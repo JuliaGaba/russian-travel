@@ -1,7 +1,12 @@
 .photo-grid {
   max-width: 1280px;
   margin: 0 auto 92px;
-  padding: 0 48px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1210px) {
+  .photo-grid {
+     padding: 0 48px;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
