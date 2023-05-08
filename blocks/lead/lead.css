@@ -6,14 +6,15 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .lead {
-    margin-bottom: 88px;
-    padding: 0 24px;
+      margin-bottom: 88px;
+      padding: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin-bottom: 64px;
-    padding: 0;
+      margin-bottom: 64px;
+      padding: 0;
   }
 }
+

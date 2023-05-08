@@ -13,23 +13,18 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .photo-grid__body {
-    gap: 14px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
-
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  .photo-grid__body  {
-    gap: 16px;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
   }
 }
 
 @media screen and (max-width: 320px) {
-  .photo-grid__body  {
-    gap: 12px;
+  .photo-grid__body {
+      gap: 12px;
+      padding: 0 16px 0;
   }
 }
+
 
 

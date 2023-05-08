@@ -1,0 +1,27 @@
+.place__text {
+  line-height: 29.34px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: start;
+  flex: 0 0 49.188%;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place__text {
+      line-height: 26.08px;
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+      margin: 0 16px 25px;
+      line-height: 26.08px;
+      font-size: 16px;
+  }
+
+  .place__text:last-child {
+      margin-bottom: 0;
+  }
+}
+

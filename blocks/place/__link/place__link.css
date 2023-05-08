@@ -1,9 +1,16 @@
 .place__link {
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;
   text-align: start;
-  font-family: Inter;
+  font-family: "Inter", "Arial ", sans-serif;
   margin-top: 12px;
+  transition: 0.2s ease-in-out;
 }
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+

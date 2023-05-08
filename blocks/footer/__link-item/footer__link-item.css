@@ -8,11 +8,12 @@
 
 @media screen and (max-width: 544px) {
   .footer__link-item {
-    margin-right: 0;
-    margin-bottom: 32px;
+      margin-right: 0;
+      margin-bottom: 32px;
   }
 
   .footer__link-item:last-child {
-    margin-bottom: 0;
+      margin-bottom: 0;
   }
 }
+

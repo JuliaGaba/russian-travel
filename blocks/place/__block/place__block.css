@@ -4,23 +4,15 @@
 
 @media screen and (min-width: 479px) and (max-width: 768px) {
   .place__block {
-    margin-bottom: 73px;
+      margin-bottom: 73px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 478px) {
+@media screen and (min-width: 319px) and (max-width: 478px) {
   .place__block {
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 62px;
-
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .place__block {
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 62px;
-  }
-}

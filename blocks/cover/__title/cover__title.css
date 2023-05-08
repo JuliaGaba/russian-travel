@@ -13,23 +13,22 @@
 
 @media screen and (max-width: 504px) {
   .cover__title {
-    font-size: 12vw;
+      font-size: 12vw;
   }
 }
 
 @media screen and (max-width: 480px) {
   .cover__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 109%;
+      max-width: 288px;
+      font-size: 32px;
+      line-height: 109%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .cover__title {
-  line-height: 35px;
-  font-size: 32px;
-  font-weight: 900;
-  margin: 33px 16px 16px;
+      line-height: 35px;
+      margin: 33px 16px 16px;
   }
 }
+
